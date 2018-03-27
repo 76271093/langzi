@@ -1,0 +1,10 @@
+{
+  "menu": [
+    {
+      "name": "login",
+      "app_id": "login",
+      "icon": "local/img/OA.png",
+      "url": "http://bi.goldwind.com.cn/vision/index.jsp"
+    }
+  ]
+}

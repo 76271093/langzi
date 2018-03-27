@@ -1,0 +1,204 @@
+{
+  "replace": [
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/js\\/freequery\\/lang\\/JSLoader\\.js"
+      ],
+      "local": "JSLoader.js",
+      "time": 1505357588234
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/control\\/LimitTabPages\\.js"
+      ],
+      "local": "LimitTabPages.js",
+      "time": 1505290820266
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/control\\/BrowseTabPages\\.js"
+      ],
+      "local": "BrowseTabPages.js",
+      "time": 1505290854305
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/actions\\/CatalogDisplayAction\\.js"
+      ],
+      "local": "CatalogDisplayAction.js",
+      "time": 1505290914368
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/catalogdisplay\\/CatalogDisplayManager\\.js"
+      ],
+      "local": "CatalogDisplayManager.js",
+      "time": 1505290942413
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/querybrowser\\/BrowseBaseManager\\.js"
+      ],
+      "local": "BrowseBaseManager.js",
+      "time": 1505290999452
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/resourcemanager\\/BaseManager\\.js"
+      ],
+      "local": "BaseManager.js",
+      "time": 1505291027034
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/resourcemanager\\/TreeWrapper\\.js"
+      ],
+      "local": "TreeWrapper.js",
+      "time": 1505291054309
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/CatalogTreeSearchBar\\.js"
+      ],
+      "local": "CatalogTreeSearchBar.js",
+      "time": 1505291095380
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/TreeResult3\\.js"
+      ],
+      "local": "TreeResult3.js",
+      "time": 1505291121908
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/CatalogTree\\.js"
+      ],
+      "local": "CatalogTree.js",
+      "time": 1505291144876
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/TreeView\\.js"
+      ],
+      "local": "TreeView.js",
+      "time": 1505291173350
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/TreeNode\\.js"
+      ],
+      "local": "TreeNode.js",
+      "time": 1505291221178
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/CatalogTreeNode\\.js"
+      ],
+      "local": "CatalogTreeNode.js",
+      "time": 1505291248837
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/ListResult\\.js"
+      ],
+      "local": "ListResult.js",
+      "time": 1505291273356
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/common\\/TransferDataNode\\.js"
+      ],
+      "local": "TransferDataNode.js",
+      "time": 1505291323261
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/catalogElementType\\.js"
+      ],
+      "local": "catalogElementType.js",
+      "time": 1505291347891
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/catalogdisplay\\/CatalogDisplayCommandFactory\\.js"
+      ],
+      "local": "CatalogDisplayCommandFactory.js",
+      "time": 1505291371249
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/common\\/BaseCommandFactory\\.js"
+      ],
+      "local": "BaseCommandFactory.js",
+      "time": 1505291395220
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/catalogdisplay\\/CatalogDisplayDefaultCommand\\.js"
+      ],
+      "local": "CatalogDisplayDefaultCommand.js",
+      "time": 1505291418146
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/querybrowser\\/QBTaskPanel\\.js"
+      ],
+      "local": "QBTaskPanel.js",
+      "time": 1505291441058
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/catalogdisplay\\/FlatCatalogDisplayTree\\.js"
+      ],
+      "local": "FlatCatalogDisplayTree.js",
+      "time": 1505291470851
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/catalogdisplay\\/CatalogDisplayTree\\.js"
+      ],
+      "local": "CatalogDisplayTree.js",
+      "time": 1505291496428
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/FlatCatalogTreeNode\\.js"
+      ],
+      "local": "FlatCatalogTreeNode.js",
+      "time": 1505291520585
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/Level1CatalogTreeNode\\.js"
+      ],
+      "local": "Level1CatalogTreeNode.js",
+      "time": 1505291541561
+    }
+  ]
+}

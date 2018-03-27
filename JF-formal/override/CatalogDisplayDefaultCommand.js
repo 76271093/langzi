@@ -1,0 +1,4 @@
+
+var Module=jsloader.resolve("freequery.widget.Module");var CustomEvent=jsloader.resolve("freequery.lang.CustomEvent");var QBTaskPanel=jsloader.resolve("freequery.querybrowser.QBTaskPanel");var CatalogDisplayDefaultCommand=function(){this.mainPane=document.getElementById('rigthContent');this.onClose=new CustomEvent("onClose",this);};lang.extend(CatalogDisplayDefaultCommand,Module);CatalogDisplayDefaultCommand.prototype.execute=function(actionId){if(this.mainPane&&!this.mainPane.firstChild)
+this.taskPanel=new QBTaskPanel(this.mainPane,null,actionId);var manager=registry.get("CatalogDisplayManager"+actionId);manager.showCatalogDisplayManagerTree();};CatalogDisplayDefaultCommand.prototype.close=function(){if(this.taskPanel)
+this.taskPanel.destroy();};

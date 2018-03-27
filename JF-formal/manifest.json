@@ -1,0 +1,200 @@
+{
+  "type": "adapter",
+  "short_name": "",
+  "version": "0.0.1",
+  "runtime_env": "1webview",
+  "runtime_version": "2.3.2-goldwind.2",
+  "description": "",
+  "options": {
+    "resource_filter": [
+      {
+        "url_match": [
+          "^http:\\/\\/bi\\.goldwind\\.com\\.cn.*"
+        ],
+        "charset": "utf-8",
+        "replaces": [
+          {
+            "regexp": "\\btop\\b",
+            "sub_str": "_ysp_top"
+          }
+        ]
+      }
+    ],
+    "resource_intercept": {
+      "type": [],
+      "ignore": []
+    },
+    "resource_inject": [],
+    "user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Electron/1.0.0 Safari/537.36"
+  },
+  "override_urls": [
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/js\\/freequery\\/lang\\/JSLoader\\.js"
+      ],
+      "target_url": "override/JSLoader.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/control\\/LimitTabPages\\.js"
+      ],
+      "target_url": "override/LimitTabPages.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/control\\/BrowseTabPages\\.js"
+      ],
+      "target_url": "override/BrowseTabPages.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/actions\\/CatalogDisplayAction\\.js"
+      ],
+      "target_url": "override/CatalogDisplayAction.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/catalogdisplay\\/CatalogDisplayManager\\.js"
+      ],
+      "target_url": "override/CatalogDisplayManager.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/querybrowser\\/BrowseBaseManager\\.js"
+      ],
+      "target_url": "override/BrowseBaseManager.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/resourcemanager\\/BaseManager\\.js"
+      ],
+      "target_url": "override/BaseManager.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/resourcemanager\\/TreeWrapper\\.js"
+      ],
+      "target_url": "override/TreeWrapper.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/CatalogTreeSearchBar\\.js"
+      ],
+      "target_url": "override/CatalogTreeSearchBar.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/TreeResult3\\.js"
+      ],
+      "target_url": "override/TreeResult3.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/CatalogTree\\.js"
+      ],
+      "target_url": "override/CatalogTree.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/TreeView\\.js"
+      ],
+      "target_url": "override/TreeView.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/TreeNode\\.js"
+      ],
+      "target_url": "override/TreeNode.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/CatalogTreeNode\\.js"
+      ],
+      "target_url": "override/CatalogTreeNode.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/ListResult\\.js"
+      ],
+      "target_url": "override/ListResult.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/common\\/TransferDataNode\\.js"
+      ],
+      "target_url": "override/TransferDataNode.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/catalogElementType\\.js"
+      ],
+      "target_url": "override/catalogElementType.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/catalogdisplay\\/CatalogDisplayCommandFactory\\.js"
+      ],
+      "target_url": "override/CatalogDisplayCommandFactory.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/common\\/BaseCommandFactory\\.js"
+      ],
+      "target_url": "override/BaseCommandFactory.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/catalogdisplay\\/CatalogDisplayDefaultCommand\\.js"
+      ],
+      "target_url": "override/CatalogDisplayDefaultCommand.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/querybrowser\\/QBTaskPanel\\.js"
+      ],
+      "target_url": "override/QBTaskPanel.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/catalogdisplay\\/FlatCatalogDisplayTree\\.js"
+      ],
+      "target_url": "override/FlatCatalogDisplayTree.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/catalogdisplay\\/CatalogDisplayTree\\.js"
+      ],
+      "target_url": "override/CatalogDisplayTree.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/FlatCatalogTreeNode\\.js"
+      ],
+      "target_url": "override/FlatCatalogTreeNode.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/gbk\\.jsp\\?name=vision\\/js\\/freequery\\/tree\\/Level1CatalogTreeNode\\.js"
+      ],
+      "target_url": "override/Level1CatalogTreeNode.js"
+    }
+  ],
+  "adapter_urls": [
+    {
+      "title": "index",
+      "url": "adapter://JF-formal/plan/index/index.json",
+      "matcher": [
+        "^http:\\/\\/bi\\.goldwind\\.com\\.cn\\/vision\\/index\\.jsp"
+      ],
+      "demo": [
+        "http://bi.goldwind.com.cn/vision/index.jsp"
+      ]
+    }
+  ],
+  "name": "金风BI正式系统",
+  "default_url": "http://bi.goldwind.com.cn",
+  "scope": "JF-formal",
+  "start_url": "enterplorer://JF-formal/local/index.html",
+  "fixed_version": 1,
+  "update_time": 1517982992021
+}

@@ -1,0 +1,21 @@
+{
+  "special_models": [
+    {
+      "path": "plan/login/index.json"
+    }
+  ],
+  "common_js": [
+    {
+      "path": "lib/base.js"
+    },
+    {
+      "path": "lib/customTemplate.js"
+    }
+  ],
+  "common_css": [
+    {
+      "path": "lib/base.css"
+    }
+  ],
+  "path": "file://C:/Users/Administrator/Documents/enterplorer/enterprises/593505b34bdb5e50fdd25b3c/apps/JF-BI-test/common.json"
+}

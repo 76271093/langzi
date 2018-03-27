@@ -1,0 +1,11 @@
+
+var Module=jsloader.resolve("freequery.widget.Module");var BaseManager=function(treeSlot,toolbarSlot,viewSlot,leftPane,splitter,tabSlot,locationSlot){this.mainPane=viewSlot||document.getElementById('rigthContent');this.treePane=treeSlot||document.getElementById('leftCatalogTree');this.commandFactory=this.getCommandFactory();this.init();};lang.extend(BaseManager,Module);BaseManager.prototype.destroy=function(){BaseManager.superclass.destroy.call(this);this.commandFactory.currentCommand.close();this.destroyTree&&this.destroyTree();this.commandFactory.destroy();};BaseManager.prototype.init=function(){this.command=this.commandFactory.getCommand("DefaultCommand");this.command.execute();};BaseManager.prototype.open=function(){this.show();};BaseManager.prototype.show=function(){if(this.leftViewStatus){var mainView=registry.get("MainView");var leftVisible=registry.get(this.leftViewStatus);if(typeof leftVisible=="undefined"){mainView.showLeftView();}else if(leftVisible==true){mainView.showLeftView();}else{mainView.hideLeftView();}}
+if(this.mainElements){for(var i=0,len=this.mainElements.length;i<len;i++){var child=this.mainElements[i];this.mainPane.appendChild(child);this.mainPane.appendChild(child);domutils.restoreCheckboxStatus(child);}
+this.mainElements=null;delete this.mainElements;}
+if(this.mainIframes){for(var i=0,len=this.mainIframes.length;i<len;i++){var tempframe=this.mainIframes[i];var olddisplay=tempframe.style.display;tempframe.style.display="none";tempframe.style.display=olddisplay;}
+this.mainIframes=null;delete this.mainIframes;}
+if(this.currentTreeWrapper){this.currentTreeWrapper.showTree();}};BaseManager.prototype.hide=function(){var toRemoved=[],tmp;var mainView=registry.get("MainView");if(this.leftViewStatus){registry.put(this.leftViewStatus,mainView.getLeftViewVisible());}
+mainView.showLeftView();this.mainElements=[];this.mainIframes=[];for(var child=this.mainPane.lastChild;child;child=child.previousSibling){if(child.id!="portalframe"&&child.nodeType==1){var tempFrames=child.getElementsByTagName("iframe");for(var j=0,leng=tempFrames.length;j<leng;j++){this.mainIframes.push(tempFrames[j]);}
+this.mainElements.push(child);domutils.saveCheckboxStatus(child);toRemoved.push(child);}}
+while(tmp=toRemoved.shift()){domutils.destroyNode(tmp,true);}
+if(this.currentTreeWrapper){this.currentTreeWrapper.hideTree();}};
